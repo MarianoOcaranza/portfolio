@@ -5,7 +5,7 @@ const Home = ()=> {
                 <div>
                     <p className="text-7xl text-indigo-400 font-bold">¡Hola!</p>
                     <p className="text-2xl">Mi nombre es Mariano</p>
-                    <p className="text-md text-neutral-600">Desarrollador frontend React y estudiante de informática</p>
+                    <p className="text-md text-neutral-600">Desarrollador frontend y estudiante de informática</p>
                 </div>
                 <img src="/main.jpeg" alt="main-image" className="md:size-1/4 size-1/2 rounded-br-full shadow-xl"/>
             </div>
