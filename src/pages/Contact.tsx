@@ -26,7 +26,7 @@ const Contact = () => {
                         </button>
                     </a>
 
-                    <a href="mailto:marianooaranza@gmail.com">
+                    <a href="mailto:marianoocaranza@gmail.com">
                         <button className="flex items-center gap-2 bg-indigo-500 hover:bg-indigo-400 text-white px-6 py-3 rounded-xl shadow-lg transition-all duration-300">
                             <Mail className="w-5 h-5" />
                             Enviarme un Mail
@@ -35,7 +35,7 @@ const Contact = () => {
 
                 </div>
 
-                <p className="text-neutral-500 text-sm mt-4">o escribime directamente a <strong>marianooaranza@gmail.com</strong></p>
+                <p className="text-neutral-500 text-sm mt-4">o escribime directamente a <strong>marianoocaranza@gmail.com</strong></p>
             </motion.div>
 
         </div>
