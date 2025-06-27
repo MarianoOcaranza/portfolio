@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router'
+import { Routes, Route, Outlet, HashRouter } from 'react-router'
 import App from './App'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
@@ -10,7 +10,7 @@ import './assets/styles.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<App><Outlet /></App>}>
           <Route index element={<Home />}/>
@@ -19,6 +19,6 @@ createRoot(document.getElementById('root')!).render(
           <Route path='*' element={<NotFound />}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 )

@@ -35,7 +35,7 @@ const About = () => {
                 className={`flex flex-col justify-center items-center sm:items-start gap-10 sm:flex-row w-full 
                     ${!isVisible ? "pointer-events-none" : ""}`}
             >
-                <img src="/aboutme.png" alt="Sobre mí" className="md:size-1/4 size-3/5 rounded-b-full" />
+                <img src="./aboutme.png" alt="Sobre mí" className="md:size-1/4 size-3/5 rounded-b-full" />
 
                 <div className="md:w-1/2 w-5/6">
                     <p className="text-3xl font-bold mb-4">Sobre mí</p>
