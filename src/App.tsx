@@ -124,7 +124,7 @@ const App = ({ children }: Props) => {
                                     } hover:text-indigo-700`}
                                     onClick={() => setOpenNav(false)}
                                 >
-                                    Proyectos
+                                    Resume
                                 </Link>
                             </li>
                             <li>
@@ -183,7 +183,7 @@ const App = ({ children }: Props) => {
                                     } hover:text-indigo-700`}
                                     onClick={() => setOpenNav(false)}
                                 >
-                                    Proyectos
+                                    Resume
                                 </Link>
                             </li>
                             <li>
