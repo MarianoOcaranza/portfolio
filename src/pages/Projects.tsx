@@ -23,7 +23,7 @@ const Projects = () => {
                     className="max-w-xl space-y-6"
                 >
                     <p className="text-lg text-neutral-600">
-                        Soy estudiante avanzado de <strong>Licenciatura en Informática</strong> y próximamente Analista en Sistemas, con sólidos conocimientos en desarrollo de software, tanto frontend como backend.
+                        Soy estudiante avanzado de <strong>Licenciatura en Informática</strong> y próximamente Analista en Informática, con sólidos conocimientos en desarrollo de software, tanto frontend como backend.
                     </p>
                     <p className="text-lg text-neutral-600">
                         Me apasiona la tecnología, el trabajo en equipo y el aprendizaje constante. Actualmente me encuentro en la búsqueda de oportunidades profesionales en el sector IT, donde pueda aplicar y seguir ampliando mis habilidades en <strong>desarrollo web, análisis funcional e ingeniería de requerimientos</strong>.
