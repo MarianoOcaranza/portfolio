@@ -35,7 +35,7 @@ const Projects = () => {
 
 
                 <div className='flex w-full justify-around'>
-                    <a href="./Cv_Mariano_Ocaranza.pdf" download>
+                    <a href="./CV_MARIANO_OCARANZA.pdf" download>
                         <button className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 rounded-xl shadow-lg transition-all duration-300">
                             <FileDown className="w-5 h-5" />
                             Descargar CV
