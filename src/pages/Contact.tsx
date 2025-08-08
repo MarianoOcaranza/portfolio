@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Contact = () => {
     return (
-        <div className="flex flex-col justify-center items-center text-center min-h-[calc(100vh-100px)] gap-10 p-4">
+        <div className="justify-center items-center text-center min-h-[calc(100vh-100px)] gap-10 p-4">
             
             <motion.div
                 initial={{ opacity: 0, y: 50 }}
@@ -12,7 +12,7 @@ const Contact = () => {
                 className="max-w-xl space-y-6"
             >
                 <h2 className="text-4xl font-bold text-indigo-500">¡Hablemos!</h2>
-                <p className="text-lg text-neutral-600">
+                <p className="text-lg text-neutral-300">
                     Actualmente me encuentro buscando empleo en <strong>IT</strong>.  
                     Si te interesa conocerme más, podés contactarme por las siguientes vías:
                 </p>

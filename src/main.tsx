@@ -7,6 +7,7 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import './assets/styles.css'
+import Road from './pages/Road'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')!).render(
           <Route index element={<Home />}/>
           <Route path='/projects' element={<Projects />}/>
           <Route path='/contact' element={<Contact />}/>
+          <Route path='/road' element={<Road />}/>
           <Route path='*' element={<NotFound />}/>
         </Route>
       </Routes>
